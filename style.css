@@ -1,0 +1,59 @@
+body {
+    width: 905px;
+    margin: auto;
+    margin-top: 50px;
+}
+#firstimg {
+    height: fit-content;
+}
+main {
+    display: grid;
+    grid-template-columns: 45px 5fr 1.8fr;
+    height: 75px;
+    background-image: url("lab-assets/hr-img.png");
+    background-repeat: repeat-x;
+    background-size: 10px;
+    background-position-y: 65px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+h4 {
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 15px;
+    color:gray;
+}
+#logo {
+    margin-top: 6px;
+}
+
+p{
+    width: 905px;
+}
+#img{
+    display:flex;
+    justify-content: center;
+}
+#Print{
+display: flex;
+height: 15px
+}
+
+#author{
+    background-image: url("lab-assets/hr-img.png");
+    background-repeat: repeat-x;
+    background-size: 10px;
+    background-position-y: 40px;
+    display: grid;
+    grid-template-columns: 90px 430px 1fr;
+    }
+  
+    #checkbox-section {
+        background-image: url("lab-assets/list-bg.png");
+        width: 900px;
+      height: 300px;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+    }
